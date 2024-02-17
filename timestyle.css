@@ -1,0 +1,74 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 810px;
+    background-image: url("https://wallpapercave.com/wp/wp6248579.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main
+{
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    font-size: 90px;
+    font-family: "Century Gothic";
+}
+.buttons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.start, .stop, .reset
+{
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color:darkslategray;
+    font-size: 23px;
+    color: rgb(255, 255, 255, 0.75);
+    font-family: "Century Gothic";
+    text-align: center;
+    transition: transform ease 0.2s;
+    box-shadow: 0px 0px 0px 1.5px black;
+}
+.startnow, .stopnow
+{
+    padding: 20px;
+}
+.container
+{
+    backdrop-filter: blur(20px);
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px 0px;
+}
+.start:hover, .stop:hover, .reset:hover
+{
+    transform: scale(1.1);
+}
+.start:active, .stop:active, .reset:active
+{
+    transform: scale(1);
+}
+.resetnow
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.reset
+{
+    width: 91.5%;
+    box-shadow: 0px 0px 0px 2px black;
+    background-color: rgba(47, 79, 79, 0.39);
+}
